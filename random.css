@@ -1,0 +1,31 @@
+html, body {
+	margin: 0;
+    height: 100%;
+}
+
+body {
+	background: gray;
+}
+
+.normal {
+	text-align: center;
+	margin: auto;
+}
+
+.flipped {
+	transform: rotate(180deg);
+	margin: auto;
+}
+
+img#myArrow {
+	width: 50%;
+	margin: auto;
+	user-select: none;
+}
+
+
+div.imagecontainer {
+  height: 45em;
+  display: flex;
+
+}
